@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.todo-container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    width: 320px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 25px;
+    color: #00796b;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+#todo-input {
+    width: 65%;
+    padding: 12px;
+    border: 1px solid #80deea;
+    border-radius: 6px;
+    outline: none;
+}
+
+#todo-input:focus {
+    border-color: #26c6da;
+}
+
+button {
+    padding: 12px 18px;
+    background-color: #00bfae;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #009688;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #b2dfdb;
+    margin: 12px 0;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li .delete {
+    color: #d32f2f;
+    cursor: pointer;
+}
+
+li .delete:hover {
+    color: #b71c1c;
+}
